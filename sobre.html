@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Immersive Motorcicle Training</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img class="logo" src="imagens/Immersive Motorcicle Training.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="fecharMenu()"></i>
+                <ul class="links">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="metodologia.html">METODOLOGIA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="mostrarMenu()"></i>
+        </nav>
+
+        <h1> Sobre nós</h1>
+
+    </section>
+
+    <!------- Sobre nós conteudo ------->
+
+    <section class="sobre-nos">
+        <div class="about-col">
+            <h1>Nós somos uma startup que acredita na educação</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim aut maiores ut praesentium impedit ipsa dignissimos voluptates, cum reiciendis, nobis animi. Dolor necessitatibus, minima debitis iure quasi quaerat impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minus minima sit suscipit nostrum repudiandae numquam nemo, obcaecati odio excepturi adipisci rerum in quidem modi quis reiciendis repellendus blanditiis recusandae?</p>
+            <a href="" class="saibamais btnpreto">EXPLORAR AGORA</a>
+        </div>
+        <div class="about-col">
+            <img src="imagens/nos (1).jpeg" alt="">
+        </div>
+    </section>
+
+
+    <!------- Footer ------->
+    <section class="footer">
+        <h4>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veritatis in saepe unde nobis a temporibus maiores, obcaecati <br> ipsum, excepturi, placeat beatae! Nulla optio, facere totam magnam qui quos rerum.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Feito com <i class="fa fa-heart-o"></i> by Myrella Faustino</p>
+    </section>
+
+    <!---------- Java script para fechar e abrir menu --------------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function mostrarMenu(){
+            navlinks.style.right = "0"
+        }
+
+        function fecharMenu(){
+            navlinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+</html>

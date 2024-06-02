@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Immersive Motorcicle Training</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img class="logo" src="imagens/Immersive Motorcicle Training.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="fecharMenu()"></i>
+                <ul class="links">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="metodologia.html">METODOLOGIA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="mostrarMenu()"></i>
+        </nav>
+
+        <h1>Fale conosco</h1>
+
+    </section>
+
+    <!------- Fale Conosco ------->
+
+    <section class="local">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21623.40122976158!2d-35.77577111863555!3d-9.550227602742947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70148311ec9d8bf%3A0x210eee5a4d27ab90!2sUFAL%20-%20Campus%20A.%20C.%20Sim%C3%B5es!5e0!3m2!1sen!2sbr!4v1717254416801!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    
+    <section class="contact-us">
+
+        <div class="col">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Tabuleiro do Martins, Maceió - AL</h5>
+                        <p>Av. Lourival Melo Mota, S/n - Tabuleiro do Martins, Maceió - AL</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>08232141461</h5>
+                        <p>Segunda a sexta - 07h as 19h</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>philipebernard21@gmail.com</h5>
+                        <p>Nos consulte por email</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+
+                <form action="form-header.php" method="post">
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="plano" placeholder="Seu plano" required>
+                    <textarea rows="8" name="mensagem" placeholder="Mensagem"></textarea>
+                    <button type="submit" class="saibamais btnpreto">Enviar mensagem</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+  
+
+
+    <!------- Footer ------->
+    <section class="footer">
+        <h4>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veritatis in saepe unde nobis a temporibus maiores, obcaecati <br> ipsum, excepturi, placeat beatae! Nulla optio, facere totam magnam qui quos rerum.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Feito com <i class="fa fa-heart-o"></i> by Myrella Faustino</p>
+    </section>
+
+    <!---------- Java script para fechar e abrir menu --------------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function mostrarMenu(){
+            navlinks.style.right = "0"
+        }
+
+        function fecharMenu(){
+            navlinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+</html>

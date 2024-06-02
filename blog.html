@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Immersive Motorcicle Training</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img class="logo" src="imagens/Immersive Motorcicle Training.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="fecharMenu()"></i>
+                <ul class="links">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="metodologia.html">METODOLOGIA</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="mostrarMenu()"></i>
+        </nav>
+
+        <h1>Nosso certificado & Programas online para 2024</h1>
+    </section>
+
+    <!------- Blog-content ------->
+    <section class="blog-cont">
+        <div class="col">
+            <div class="blog-esq">
+                <img src="imagens/diploma.jpg" alt="">
+                <h2>Nosso certificado & Programas online para 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime mollitia distinctio voluptatem. Deleniti earum laboriosam ducimus corrupti veritatis nobis nostrum deserunt voluptatem dolores consequatur numquam perspiciatis ipsum, possimus velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis a non enim consectetur iste, deleniti sequi aliquid suscipit quos pariatur quisquam quis necessitatibus iusto natus facilis dolorem consequatur fugiat.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio rem, officiis quod aliquid cupiditate sit cumque sed adipisci! Consequuntur minus sunt quae ea voluptates earum esse distinctio voluptatem accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto distinctio, libero numquam pariatur voluptatibus nostrum? Culpa, quo rerum laudantium, minus omnis cum id ad, fuga similique aliquam temporibus nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste inventore ea, odio eos doloremque asperiores veniam molestias. Tempore, pariatur. Quaerat consectetur assumenda et eligendi ullam possimus dolore voluptatibus animi qui.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus odio rem, officiis quod aliquid cupiditate sit cumque sed adipisci! Consequuntur minus sunt quae ea voluptates earum esse distinctio voluptatem accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore architecto distinctio, libero numquam pariatur voluptatibus nostrum? Culpa, quo rerum laudantium, minus omnis cum id ad, fuga similique aliquam temporibus nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste inventore ea, odio eos doloremque asperiores veniam molestias. Tempore, pariatur. Quaerat consectetur assumenda et eligendi ullam possimus dolore voluptatibus animi qui.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime mollitia distinctio voluptatem. Deleniti earum laboriosam ducimus corrupti veritatis nobis nostrum deserunt voluptatem dolores consequatur numquam perspiciatis ipsum, possimus velit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis a non enim consectetur iste, deleniti sequi aliquid suscipit quos pariatur quisquam quis necessitatibus iusto natus facilis dolorem consequatur fugiat.</p>
+
+                <div class="comentarios">
+
+                    <h3>Deixe um comentário</h3>
+
+                    <form class="com-form">
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Seu comentário"></textarea>
+                        <button type="submit" class="saibamais btnpreto">Publicar comentário</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="blog-dir">
+                <h3>Post Categorias</h3>
+                <div>
+                    <span>Analista de Negocios</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Analista de Negocios</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Analista de Negocios</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Analista de Negocios</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Analista de Negocios</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Analista de Negocios</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------- Footer ------->
+
+    <section class="footer">
+        <h4>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veritatis in saepe unde nobis a temporibus maiores, obcaecati <br> ipsum, excepturi, placeat beatae! Nulla optio, facere totam magnam qui quos rerum.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Feito com <i class="fa fa-heart-o"></i> by Myrella Faustino</p>
+    </section>
+
+    <!---------- Java script para fechar e abrir menu --------------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function mostrarMenu(){
+            navlinks.style.right = "0"
+        }
+
+        function fecharMenu(){
+            navlinks.style.right = "-200px"
+        }
+
+    </script>
+
+</body>
+</html>
